@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+
+/* ----------------------------------------------- Navigation Start --- */
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-color: rgba(0, 139, 139, 0.6)!important;
+}
+
+.navbar-brand img{
+  height: 32px;
+  border-radius: 50%;
+}
+
+.navbar-nav li{
+  padding-right: 11px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #008080;
+}
+
+
+/* ----------------------------------------------- Navigation End --- */
+
+/* ----------------------------------------------- Landing Page Start --- */
+
+.home-inner{
+  background-image: url(../images/portugal.jpg);
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* ----------------------------------------------- Landing Page End --- */
